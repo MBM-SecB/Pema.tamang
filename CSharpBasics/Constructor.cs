@@ -21,6 +21,11 @@ namespace LearningClasses
             Name = name;
             Population = population;
         }
+        //static constuctor
+        static Country()
+        {
+            IsOnEarth= true;
+        }
     }
 
     public class Demo
@@ -32,4 +37,5 @@ namespace LearningClasses
 
         }
     }
+
 }
