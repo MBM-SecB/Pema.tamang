@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace CSharpBasics
-{
+﻿
     class Program
     {
-        static void Main1(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+    
+        static void Main()
+      {
+        FileIO file = new FileIO();
+        file.LearnDirectory();
+        file.FileIoAssignment();
         }
+    
     }
-}
